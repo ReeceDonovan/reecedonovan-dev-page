@@ -1,0 +1,25 @@
+:root {
+  --main-bg-color: #322b33;
+  --alt-bg-color: #272227;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  color: rgb(246, 238, 253);
+  background-color: var(--main-bg-color);
+}
+
+main {
+  height: 90%;
+}
+
+footer {
+  height: 10%;
+  background-color: var(--alt-bg-color);
+}
