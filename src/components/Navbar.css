@@ -67,30 +67,26 @@
   color: darkorchid;
 }
 
-/* Tooltip text */
 .item-caption {
   visibility: hidden;
   width: 120px;
-  background-color: #555;
+  background-color: rgb(39, 34, 34);
   color: aliceblue;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-  font-family: "Archivo Narrow", sans-serif;
 
-  /* Position the tooltip text */
   position: absolute;
   z-index: 1;
   bottom: 30%;
   left: 210%;
   margin-left: -60px;
 
-  /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-/* Tooltip arrow */
+/* arrow */
 .item-caption::after {
   content: "";
   position: absolute;
@@ -99,11 +95,10 @@
   margin-top: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent #555 transparent transparent;
+  border-color: transparent rgb(39, 34, 34) transparent transparent;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
 .nav-item:hover .item-caption {
   visibility: visible;
-  opacity: 1;
+  opacity: 0.85;
 }
