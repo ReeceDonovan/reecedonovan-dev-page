@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/reecedonovan-dev-page" exact component={Home} />
         </Switch>
       </Router>
     </>

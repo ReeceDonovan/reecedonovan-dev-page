@@ -9,12 +9,12 @@ function Cards() {
         <div className="cards-wrapper">
           <ul className="cards-items">
             <CardItem
-              src="images/project-1.gif"
+              src="https://cdn.discordapp.com/attachments/471231303317192735/762771704677138432/project-1.gif"
               text="Visual Sort"
               label="JS"
             />
             <CardItem
-              src="images/project-1.gif"
+              src="https://cdn.discordapp.com/attachments/471231303317192735/762771704677138432/project-1.gif"
               text="Visual Sort"
               label="JS"
             />
