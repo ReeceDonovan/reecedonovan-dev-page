@@ -14,9 +14,17 @@ function App() {
         <Navbar />
         <AnimatePresence exitBeforeEnter>
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" exact component={About} />
-            <Route path="/projects" exact component={Projects} />
+            <Route path="/reecedonovan-dev-page/" exact component={Home} />
+            <Route
+              path="/reecedonovan-dev-page/about"
+              exact
+              component={About}
+            />
+            <Route
+              path="/reecedonovan-dev-page/projects"
+              exact
+              component={Projects}
+            />
             {/*TODO: <Route path="/contact" exact component={} /> */}
             {/* TODO: Make transition slide exitBeforeEnter then redirect to githum */}
           </Switch>

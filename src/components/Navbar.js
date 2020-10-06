@@ -12,19 +12,19 @@ function Navbar() {
 
         <ul className="nav-menu internal">
           <li className="nav-item">
-            <Link to="/">
+            <Link to="/reecedonovan-dev-page/">
               <i className="far fa-home-alt" />
             </Link>
             <div className="item-caption">Home</div>
           </li>
           <li className="nav-item">
-            <Link to="/about">
+            <Link to="/reecedonovan-dev-page/about">
               <i className="far fa-user" />
             </Link>
             <div className="item-caption">About</div>
           </li>
           <li className="nav-item">
-            <Link to="/projects">
+            <Link to="/reecedonovan-dev-page/projects">
               <i className="far fa-book-open" />
             </Link>
             <div className="item-caption">Projects</div>
