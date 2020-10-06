@@ -1,7 +1,7 @@
 import React from "react";
-import "./About.css";
+import "./AboutSec.css";
 import AboutItem from "./AboutItem";
-function About() {
+function AboutSec() {
   return (
     <div className="about">
       <h1>About Me</h1>
@@ -16,4 +16,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutSec;

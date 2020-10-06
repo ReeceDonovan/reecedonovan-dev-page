@@ -1,22 +1,22 @@
-import "../../App.css";
-import ContentSection from "../ContentSection";
 import React from "react";
-import { motion } from "framer";
+import "../../App.css";
+import { motion } from "framer-motion";
+import Cards from "../Cards.js";
 const pageVariants = {
   in: {
     opacity: 1,
-    y: 0,
+    x: 0,
   },
   out: {
     opacity: 0,
-    y: "-100%",
+    x: "100%",
   },
 };
 const pageTransition = {
   duration: 0.5,
-  ease: "ease",
+  transition: "ease",
 };
-function Home() {
+function Projects() {
   return (
     <motion.div
       initial="out"
@@ -25,9 +25,8 @@ function Home() {
       transition={pageTransition}
       variants={pageVariants}
     >
-      <ContentSection />
+      <Cards />
     </motion.div>
   );
 }
-
-export default Home;
+export default Projects;

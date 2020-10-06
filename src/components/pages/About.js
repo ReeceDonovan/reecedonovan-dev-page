@@ -1,7 +1,7 @@
-import "../../App.css";
-import ContentSection from "../ContentSection";
 import React from "react";
-import { motion } from "framer";
+import "../../App.css";
+import { motion } from "framer-motion";
+import AboutSec from "../AboutSec.js";
 const pageVariants = {
   in: {
     opacity: 1,
@@ -9,14 +9,14 @@ const pageVariants = {
   },
   out: {
     opacity: 0,
-    y: "-100%",
+    y: "100%",
   },
 };
 const pageTransition = {
   duration: 0.5,
-  ease: "ease",
+  transition: "ease",
 };
-function Home() {
+function About() {
   return (
     <motion.div
       initial="out"
@@ -25,9 +25,8 @@ function Home() {
       transition={pageTransition}
       variants={pageVariants}
     >
-      <ContentSection />
+      <AboutSec />
     </motion.div>
   );
 }
-
-export default Home;
+export default About;
