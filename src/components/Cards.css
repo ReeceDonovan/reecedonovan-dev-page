@@ -1,6 +1,5 @@
 .cards {
   padding: 4rem;
-  background: linear-gradient(0deg, rgb(36, 33, 33) 0%, rgb(32, 29, 29) 100%);
   color: aliceblue;
   height: 100vh;
   display: flex;
@@ -21,10 +20,7 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  /* max-width: 1120px; */
   width: 90%;
-  /* margin: 0 auto; */
-  /* height: 100%; */
 }
 
 .cards-wrapper {
@@ -63,11 +59,6 @@ h1 {
   padding-top: 67%;
   overflow: hidden;
 }
-
-/* .fade-img {
-  animation-name: fade-img;
-  animation-duration: 2s;
-} */
 
 .cards-item-img-wrap::after {
   content: attr(data-category);

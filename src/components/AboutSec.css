@@ -1,6 +1,5 @@
 .about {
   padding: 4rem;
-  background: linear-gradient(0deg, rgb(32, 29, 29) 0%, rgb(36, 33, 33) 100%);
   color: aliceblue;
   height: 100vh;
   display: flex;
@@ -21,10 +20,7 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  /* max-width: 1120px; */
   width: 90%;
-  /* margin: 0 auto; */
-  /* height: 100%; */
 }
 
 .about-wrapper {

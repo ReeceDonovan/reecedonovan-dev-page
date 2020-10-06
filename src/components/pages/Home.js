@@ -2,7 +2,8 @@ import "../../App.css";
 import ContentSection from "../ContentSection";
 import React from "react";
 import { motion } from "framer";
-const pageVariants = {
+
+let pageVariants = {
   in: {
     opacity: 1,
     y: 0,
@@ -12,10 +13,12 @@ const pageVariants = {
     y: "-100%",
   },
 };
+
 const pageTransition = {
-  duration: 0.5,
+  duration: 0.35,
   ease: "ease",
 };
+
 function Home() {
   return (
     <motion.div

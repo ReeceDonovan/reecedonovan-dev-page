@@ -1,22 +1,25 @@
 import React from "react";
 import "../../App.css";
-import { motion } from "framer-motion";
+import { motion } from "framer";
 import Cards from "../Cards.js";
-const pageVariants = {
-  in: {
-    opacity: 1,
-    x: 0,
-  },
-  out: {
-    opacity: 0,
-    x: "100%",
-  },
-};
-const pageTransition = {
-  duration: 0.5,
-  transition: "ease",
-};
+
 function Projects() {
+  let pageVariants = {
+    in: {
+      opacity: 1,
+      x: 0,
+    },
+    out: {
+      opacity: 0,
+      x: "100%",
+    },
+  };
+
+  const pageTransition = {
+    duration: 0.35,
+    ease: "ease",
+  };
+
   return (
     <motion.div
       initial="out"
