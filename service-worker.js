@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/reecedonovan-dev-page/precache-manifest.3aaf212405758f5c7e93e58870100a2a.js"
+  "/reecedonovan-dev-page/precache-manifest.c689c4dae5743bbe6b3a983f584eafcc.js"
 );
 
 self.addEventListener('message', (event) => {
