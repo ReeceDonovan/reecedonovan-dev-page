@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo">
+        <Link to="/reecedonovan-dev-page/" className="navbar-logo">
           <i className="fas fa-rupee-sign" />
         </Link>
 
