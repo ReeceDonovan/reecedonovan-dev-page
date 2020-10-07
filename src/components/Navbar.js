@@ -29,12 +29,6 @@ function Navbar() {
             </Link>
             <div className="item-caption">Projects</div>
           </li>
-          <li className="nav-item">
-            <Link to="/contact">
-              <i className="far fa-envelope" />
-            </Link>
-            <div className="item-caption">Contact</div>
-          </li>
         </ul>
 
         <ul className="nav-menu external">

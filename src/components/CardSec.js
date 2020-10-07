@@ -1,8 +1,8 @@
 import React from "react";
 import CardItem from "./CardItem";
-import "./Cards.css";
+import "./CardSec.css";
 
-function Cards() {
+function CardSec() {
   return (
     <div className="cards">
       <h1>Check out my projects</h1>
@@ -13,11 +13,13 @@ function Cards() {
               src="https://cdn.discordapp.com/attachments/471231303317192735/762771704677138432/project-1.gif"
               text="Visual Sort"
               label="JS"
+              link="https://github.com/ReeceDonovan/Visual-Sort"
             />
             <CardItem
               src="https://cdn.discordapp.com/attachments/471231303317192735/762771704677138432/project-1.gif"
               text="Visual Sort"
               label="JS"
+              link="https://github.com/ReeceDonovan/Visual-Sort"
             />
           </ul>
         </div>
@@ -26,4 +28,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default CardSec;

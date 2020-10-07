@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 import { motion } from "framer";
-import Cards from "../Cards.js";
+import CardSec from "../CardSec.js";
 
 function Projects() {
   let pageVariants = {
@@ -28,7 +28,7 @@ function Projects() {
       transition={pageTransition}
       variants={pageVariants}
     >
-      <Cards />
+      <CardSec />
     </motion.div>
   );
 }

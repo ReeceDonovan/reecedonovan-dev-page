@@ -1,5 +1,5 @@
 import "../../App.css";
-import ContentSection from "../ContentSection";
+import ContentSec from "../ContentSec";
 import React from "react";
 import { motion } from "framer";
 
@@ -28,7 +28,7 @@ function Home() {
       transition={pageTransition}
       variants={pageVariants}
     >
-      <ContentSection />
+      <ContentSec />
     </motion.div>
   );
 }
