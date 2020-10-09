@@ -26,23 +26,6 @@ function App() {
             exact
             component={Projects}
           />
-          <Route
-            exact
-            path="/github"
-            render={() => (window.location = "https://github.com/ReeceDonovan")}
-          />
-          <Route
-            exact
-            path="/insta"
-            render={() =>
-              (window.location = "https://www.instagram.com/r_e_e_c_e_9_9/")
-            }
-          />
-          <Route
-            exact
-            path="/email"
-            render={() => (window.location = "mailto:reecedonovan99@gmail.com")}
-          />
         </Switch>
       </AnimatePresence>
     </>

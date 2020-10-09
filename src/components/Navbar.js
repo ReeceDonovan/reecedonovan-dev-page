@@ -33,21 +33,21 @@ function Navbar() {
 
         <ul className="nav-menu external">
           <li className="nav-item">
-            <Link to="/github">
+            <a href="https://github.com/ReeceDonovan">
               <i className="far fa-code-branch" />
-            </Link>
+            </a>
             <div className="item-caption">Github</div>
           </li>
           <li className="nav-item">
-            <Link to="/insta">
+            <a href="https://www.instagram.com/r_e_e_c_e_9_9/">
               <i className="fab fa-instagram" />
-            </Link>
+            </a>
             <div className="item-caption">Instagram</div>
           </li>
           <li className="nav-item">
-            <Link to="/email">
+            <a href="mailto:reecedonovan99@gmail.com">
               <i className="far fa-at" />
-            </Link>
+            </a>
             <div className="item-caption">Email</div>
           </li>
         </ul>
