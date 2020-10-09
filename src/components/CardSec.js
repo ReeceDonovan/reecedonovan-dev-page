@@ -5,7 +5,11 @@ import "./CardSec.css";
 function CardSec() {
   return (
     <div className="cards">
-      <h1>Check out my projects</h1>
+      <h1 className="glitch">
+        <span aria-hidden="true">Check out my projects</span>
+        Check out my projects
+        <span aria-hidden="true">Check out my projects</span>
+      </h1>
       <div className="cards-container">
         <div className="cards-wrapper">
           <ul className="cards-items">
